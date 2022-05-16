@@ -11,7 +11,13 @@ import cloud4rpi
 
 # import absl
 global variables
-
+# DEVICE_TOKEN = ''
+# variables = {
+#     'number of pieces': {
+#         'type': 'numeric'}}
+# device = cloud4rpi.connect(DEVICE_TOKEN)
+# device.declare(variables)
+# device.publish_config()
 
 tracker = EuclideanDistTracker()
 flag = 1
@@ -27,7 +33,6 @@ L1 = Label(f1,bg="white",height=240,width=600)
 L1.pack()
 frame2 = Frame()
 frame2.pack(fill=X)
-
 
 f2 = LabelFrame(root, bg="white")
 f2.pack()
