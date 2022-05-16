@@ -28,6 +28,7 @@ L1.pack()
 frame2 = Frame()
 frame2.pack(fill=X)
 
+
 f2 = LabelFrame(root, bg="white")
 f2.pack()
 L2 = Label(f1, bg="white", height=300, width=600)
